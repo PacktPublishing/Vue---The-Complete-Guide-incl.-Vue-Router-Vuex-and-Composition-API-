@@ -1,0 +1,7 @@
+Module Resources & Useful Links
+You can find the finished Section Code attached to this Lecture.
+
+Useful Links:
+
+Official Docs - Filters: https://vuejs.org/v2/guide/filters.html
+Official Docs - Mixins: http://vuejs.org/guide/mixins.html

@@ -1,0 +1,6 @@
+Module Resources & Useful Links
+The finished Source Code can be found attached to this lecture.
+
+Useful Links:
+
+Official Docs - Forms: http://vuejs.org/guide/forms.html

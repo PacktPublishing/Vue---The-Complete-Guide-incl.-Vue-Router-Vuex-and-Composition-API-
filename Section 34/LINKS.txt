@@ -1,0 +1,6 @@
+Module Resources & Useful Links
+You find the Module Code attached to this lecture.
+
+Useful Links: 
+
+Official Docs - Custom Directives: http://vuejs.org/guide/custom-directive.html
