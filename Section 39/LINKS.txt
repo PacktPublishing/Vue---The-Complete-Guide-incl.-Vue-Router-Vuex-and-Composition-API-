@@ -1,0 +1,3 @@
+https://github.com/vuejs/vuex/releases/tag/v2.1.0
+
+https://vuex.vuejs.org/guide/

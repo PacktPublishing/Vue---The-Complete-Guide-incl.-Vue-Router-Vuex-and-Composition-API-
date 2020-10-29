@@ -1,0 +1,5 @@
+https://github.com/pagekit/vue-resource/blob/master/docs/recipes.md
+
+https://medialize.github.io/URI.js/uri-template.html
+
+https://github.com/pagekit/vue-resource/blob/master/docs/http.md
