@@ -1,0 +1,6 @@
+Changed Slot Styling Behavior
+In the last lecture, I showed you how slots are compiled and styled. 
+
+The compilation information still is correct but regarding the styling, the behavior changed: You can now style the content you pass into a slot from inside the parent component.
+
+When adding the h1  style to the parent component in the last video, you will now get red text in your final output. This is indeed pretty useful, since it allows you to write wrapper components which only provide a certain frame but don't interfere with the styling of the data/ content you pass into them.
