@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>VueJS</title>
+	<link rel="stylesheet" href="">
+	<script src="vue.js"></script>
+</head>
+<body>
+	<div id="app">
+		<input type="text" v-on:input="changeGreeting"></input>
+		<p>{{ greeting }}</p>
+	</div>
+	<script>
+	// You may of course also outsource this script code into a separate file (e.g. app.js) and simply import this file here
+		new Vue({
+			el: '#app',
+			data: {
+				greeting: 'Hello World!'
+			},
+			methods: {
+				changeGreeting: function(event) {
+					this.greeting = event.target.value;
+				}
+			}
+		})
+	</script>
+</body>
+</html>

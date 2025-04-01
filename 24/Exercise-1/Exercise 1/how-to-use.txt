@@ -1,0 +1,6 @@
+How to Use
+----
+
+Copy the content of the index.html file into the HTML field in JSFiddle.
+
+If you want to use it locally: Make sure to add a <script src="app.js"> import BELOW your HTML code in the index.html file!

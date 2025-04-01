@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Basics</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Vue Dynamic Styling</h1>
+    </header>
+    <section id="styling">
+      <div
+        class="demo"
+        :class="{active: boxASelected}"
+        @click="boxSelected('A')"
+      ></div>
+      <div
+        class="demo"
+        :class="{active: boxBSelected}"
+        @click="boxSelected('B')"
+      ></div>
+      <div
+        class="demo"
+        :class="{active: boxCSelected}"
+        @click="boxSelected('C')"
+      ></div>
+    </section>
+  </body>
+</html>
